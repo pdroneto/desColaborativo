@@ -42,7 +42,7 @@ jobs:
     environment: 
       name: dev
       url: 'pedrobarcelos.com'
-    needs: deploy-dev
+    needs: deploy-homologacao
     steps:
       - name: Run a one-line script
         run: echo Deploy Produção
